@@ -45,6 +45,12 @@ public class CustomArrayListTest {
 		
 		list.insert(2, 'E');
 		
+		System.out.println(list.get(0));
+		System.out.println(list.get(1));
+		System.out.println(list.get(2));
+		System.out.println(list.get(3));
+		System.out.println(list.get(4));
+		
 		if(list.get(0) != 'D') fail("list.get(0) returning improper value.");
 		if(list.get(1) != 'I') fail("list.get(1) returning improper value.");
 		if(list.get(2) != 'E') fail("list.get(2) returning improper value.");
@@ -68,6 +74,11 @@ public class CustomArrayListTest {
 		
 		list.remove(0);
 		
+		System.out.println(list.get(0));
+		System.out.println(list.get(1));
+		System.out.println(list.get(2));
+		
+		
 		if(!list.get(0).name.equals("Sara")) {
 			fail("list.get(0) returning improper value.");
 		}
@@ -77,6 +88,10 @@ public class CustomArrayListTest {
 		if(!list.get(2).name.equals("Devaugn")) {
 			fail("list.get(2) returning improper value.");
 		}
+		
+		System.out.println("");
+		System.out.println(list.get(0));
+		System.out.println(list.get(1));
 		
 		list.remove(2);
 		if(!list.get(0).name.equals("Sara")) {
