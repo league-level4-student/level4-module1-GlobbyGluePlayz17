@@ -145,8 +145,8 @@ public class _00_SnakeGame implements ActionListener, KeyListener {
 				snake.feed();
 				break;
 			default:
-				snake.setDirection(Direction.LEFT);
-				System.out.println("left");
+//				snake.setDirection(Direction.LEFT);
+//				System.out.println("left");
 				break;
 		
 		}
